@@ -5,11 +5,11 @@
 
 For ESP32 look [HERE](https://github.com/me-no-dev/AsyncTCP)
 
-[![Join the chat at https://gitter.im/me-no-dev/ESPAsyncWebServer](https://badges.gitter.im/me-no-dev/ESPAsyncWebServer.svg)](https://gitter.im/me-no-dev/ESPAsyncWebServer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/me-no-dev/ESPAsyncWebSrv](https://badges.gitter.im/me-no-dev/ESPAsyncWebSrv.svg)](https://gitter.im/me-no-dev/ESPAsyncWebSrv?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This is a fully asynchronous TCP library, aimed at enabling trouble-free, multi-connection network environment for Espressif's ESP8266 MCUs.
 
-This library is the base for [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+This library is the base for [ESPAsyncWebSrv](https://github.com/me-no-dev/ESPAsyncWebSrv)
 
 ## AsyncClient and AsyncServer
 The base classes on which everything else is built. They expose all possible scenarios, but are really raw and require more skills to use.
@@ -25,7 +25,7 @@ This class is really similar to the ```AsyncPrinter```, but it differs in the fa
 It is exactly what it sounds like. This is a standard, blocking TCP Client, similar to the one included in ```ESP8266WiFi```
 
 ## Libraries and projects that use AsyncTCP
-- [ESP Async Web Server](https://github.com/me-no-dev/ESPAsyncWebServer)
+- [ESP Async Web Server](https://github.com/me-no-dev/ESPAsyncWebSrv)
 - [Async MQTT client](https://github.com/marvinroger/async-mqtt-client)
 - [arduinoWebSockets](https://github.com/Links2004/arduinoWebSockets)
 - [ESP8266 Smart Home](https://github.com/baruch/esp8266_smart_home)
